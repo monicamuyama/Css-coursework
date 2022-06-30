@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon.png">
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <style media="screen">
+      button{
+        background-color: blue;
+        cursor: pointer;
+        border-radius:15px;
+        height: 40px;
+        width:100px;
+        margin-top: 10px;
+      }
+      .button:hover{
+        opacity:0.8;
+      }
+      .button:active{
+        background-color: white;
+      }
+      div{
+        margin:10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">home</a>
+  </header>
+  <h1>Contact Form</h1>
+  <form method ="POST" action ="https://formsubmit.co/muyamamonica@gmail.com">
+    <div >
+      <label for="name">Full Name:</label>
+      <input type="text" class="" placeholder="Enter name" id="name">
+    </div>
+    <div >
+      <label for="tel">Tel. No:</label>
+      <input type="text" class="" placeholder="Enter telephone number" id="tel. no.">
+    </div>
+  <div >
+    <label for="email">Email address:</label>
+    <input type="email" class="" placeholder="Enter email" id="email">
+  </div>
+  <div >
+    <label for="pwd">Password:</label>
+    <input type="password" class="" placeholder="Enter password" id="pwd">
+  </div>
+<button type="reset" class="button">Refresh</button></br>
+  <button type="submit" class="button">Submit</button>
+</form>
+  </body>
+</html>
